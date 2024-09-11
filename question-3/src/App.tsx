@@ -1,34 +1,33 @@
-// import { useEffect, useState } from 'react';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+
 import './App.css';
 
 function App() {
-  // useEffect(() => {
-  //   question1(array);
-  // }, []);
-
   return (
-    <div className='teste'>
-      <div className='header'>header</div>
+    <>
+      <Header />
 
-      <div className='main'>
+      <div className='main_container'>
         <div style={{ width: '40%' }}>
-          <div className='hero'>hero</div>
-          <div className='side_bar'>side bar</div>
+          <div className='hero'>Hero</div>
+          <div className='side_bar'>Sidebar</div>
         </div>
 
         <div style={{ width: '60%' }}>
-          <div className='main_content'>main content</div>
+          <div className='main_content'>Main Content</div>
 
-          <div className='extra_content'>extra content</div>
+          <div className='extra_content'>Extra Content</div>
         </div>
       </div>
 
-      <div style={{ display: 'flex' }}>
-        <div className='related_images'>related images</div>
-        <div className='related_posts'>related posts</div>
+      <div className='section'>
+        <div className='related_images'>Related Images</div>
+        <div className='related_posts'>Related Posts</div>
       </div>
-      <div className='footer'>footer</div>
-    </div>
+
+      <Footer />
+    </>
   );
 }
 
