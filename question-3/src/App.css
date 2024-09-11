@@ -1,0 +1,53 @@
+.header{
+  width: 100%;
+  background-color: aqua;  
+  height: 100px;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  background-color: black;
+}
+
+.hero {
+  background-color: azure;
+  height: 200px;
+}
+
+.side_bar {
+  background-color: green;
+  height: 400px;
+}
+
+.main_content {
+  background-color: yellow;
+  height: 500px;
+}
+
+.extra_content {
+  background-color: darkgray;
+  height: 100px;
+}
+
+.related_images {
+  background-color: darkolivegreen;
+  width: 70%;
+  height: 100px;
+}
+
+.related_posts {
+  background-color: pink;
+  height: 100px;
+  width: 30%;
+}
+
+.footer {
+  width: 100%;
+  background-color: orange;
+  height: 100px;
+}
+
+.teste {
+  height: 100vh;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "metrobi-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "question1": "node ./question-1/index.js",
+    "question2": "node ./question-2/index.js",
+    "question4": "node ./question-4/index.js",
+    "question7": "node ./question-7/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
